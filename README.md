@@ -1,4 +1,4 @@
-##Sistema de Gestión de Tareas
+## Sistema de Gestión de Tareas
 
 Este proyecto consiste en una prueba técnica, la cual está estructurada de la siguiente forma:
 
@@ -6,7 +6,7 @@ DB - Objetos creados en base de datos (SQL) TaskClient - Cliente desarrollado en
 
 Desarrollo de la prueba Para que la aplicación funcione correctamente, es necesario tener en cuenta los siguientes pasos:
 
-#Pasos de ejecución:
+# Pasos de ejecución:
 
 1.Ejecutar Script se sql "PruebaPactia.sql" En este scripts se encuentra la creación de la base de datos y de la tabla.
 
@@ -21,3 +21,11 @@ Se integra el ORM (Object Relational Mapping) Entity Framework, el cual nos ayud
 El archivo encargado de realizar este proceso se encuentra en la capa Task.Domain/Bat TaskContext.bat
 
 Ejecutar la aplicación para que el cliente pueda recibir las peticiones. En la API, se evidencia la estructura completa de la Arquitectura Hexagonal.
+
+Para el control de seguridad implementado el control de auutenticación con JWT se creo el servicio Post # https://localhost:7109/api/Autentication/Validate # con cuerpo 
+json 
+    {      
+        "email": "ciro@gmail.com",
+        "password": "123"
+    }
+
