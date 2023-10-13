@@ -11,9 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.DataInfrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.Models", "Task.Models\Task.Models.csproj", "{68771A6E-FE2E-464B-A099-F2426092F5C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.Utilities", "Task.Utilities\Task.Utilities.csproj", "{3865197E-5621-4802-BE94-A3AA404C6075}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.UnitTest", "Task.UnitTest\Task.UnitTest.csproj", "{948B36C6-4D06-4CBD-8453-E7A0764EF040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.UnitTest", "Task.UnitTest\Task.UnitTest.csproj", "{948B36C6-4D06-4CBD-8453-E7A0764EF040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{68771A6E-FE2E-464B-A099-F2426092F5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68771A6E-FE2E-464B-A099-F2426092F5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68771A6E-FE2E-464B-A099-F2426092F5C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3865197E-5621-4802-BE94-A3AA404C6075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3865197E-5621-4802-BE94-A3AA404C6075}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3865197E-5621-4802-BE94-A3AA404C6075}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3865197E-5621-4802-BE94-A3AA404C6075}.Release|Any CPU.Build.0 = Release|Any CPU
 		{948B36C6-4D06-4CBD-8453-E7A0764EF040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{948B36C6-4D06-4CBD-8453-E7A0764EF040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{948B36C6-4D06-4CBD-8453-E7A0764EF040}.Release|Any CPU.ActiveCfg = Release|Any CPU

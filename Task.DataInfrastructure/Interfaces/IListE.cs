@@ -10,7 +10,6 @@ namespace Task.DataInfrastructure.Interfaces
     {
         List<T> Get();
 
-        //T GeTaskById(int TId); Ciro
         T GeTaskById(Guid TId);
     }
 }

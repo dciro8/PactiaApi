@@ -22,7 +22,6 @@
     <ProjectReference Include="..\Task.DataInfrastructure\Task.DataInfrastructure.csproj" />
     <ProjectReference Include="..\Task.Domain\Task.Domain.csproj" />
     <ProjectReference Include="..\Task.Models\Task.Models.csproj" />
-    <ProjectReference Include="..\Task.Utilities\Task.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -20,8 +20,6 @@ namespace Task.DataInfrastructure.Repository
             saveChanges();
             return entity;
         }
-
-        //public int Delete(int id)Ciro
         public int Delete(Guid id)
         {
             var register = _db.TASK.Where(w => w.Id.Equals(id)).FirstOrDefault();
@@ -59,7 +57,6 @@ namespace Task.DataInfrastructure.Repository
             return _db.TASK.ToList();
         }
 
-        //public TASK GeTaskById(int TId)Ciro
         public TASK GeTaskById(Guid TId)
         {
             return _db.TASK.Where(x => x.Id.Equals(TId)).FirstOrDefault();
